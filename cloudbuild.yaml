@@ -14,7 +14,7 @@
 
 # [START cloudbuild_gradle]
 steps:
-  - name: gradle:7.4.2-jdk11
+  - name: gradle
     entrypoint: gradle
     args: ["build"]
 # [END cloudbuild_gradle]
